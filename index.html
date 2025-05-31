@@ -101,7 +101,7 @@
             button.disabled = true;
             button.innerText = "Submitting...";
 
-        let d =new Formdata(form);
+        let d =new FormData(form);
             fetch(scriptURL, {
                 method: 'POST',
                 body:d
