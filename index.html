@@ -101,10 +101,10 @@
             button.disabled = true;
             button.innerText = "Submitting...";
 
-
+        let d =new Formdata(form);
             fetch(scriptURL, {
                 method: 'POST',
-                body: new FormData(form)
+                body:d
             })
                 .then(response => {
                     alert("Form submitted successfully! 🎉");
