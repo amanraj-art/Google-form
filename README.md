@@ -5,10 +5,10 @@ After submission, users receive a confirmation popup and an email (via Apps Scri
 
 Features:
 
-Live form validation
+1. Live form validation
 
-Data saved directly to Google Sheets
+2.Data saved directly to Google Sheets
 
-Email confirmation using MailApp
+3.Email confirmation using MailApp
 
-Mobile responsive design
+4.Mobile responsive design
